@@ -3,6 +3,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Footer.css";
 
+import Navbar from "../components/Navbar";
+
 function Footer() {
   return (
     <div className="footer">
@@ -10,7 +12,7 @@ function Footer() {
         <LinkedInIcon />
         <GithubIcon />
       </div>
-      <p> &copy; 2022 </p>
+      <Navbar />
     </div>
   );
 }
