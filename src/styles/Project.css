@@ -59,6 +59,10 @@
   font-size: 3rem;
 }
 
+h3 {
+  text-align: center;
+}
+
   @media only screen and (max-width: 1300px) {
     .projectList {
       grid-template-columns: 1fr 1fr;
