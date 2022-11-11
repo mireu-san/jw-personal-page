@@ -16,7 +16,9 @@ function Projects() {
           );
         })}
       </div>
-      Projects
+      <p>
+        전체 프로젝트를 열람하려면 아래의 Github Repository 를 참고해주세요.
+      </p>
     </div>
   );
 }
