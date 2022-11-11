@@ -57,7 +57,7 @@ function Experience() {
         >
           <img src={Exp2} alt="Exp2" className="thumbnail" />
           <h3 className="vertical-timeline-element-title">
-            Frontend Developer - Teampl100
+            Frontend Developer - Teampl100 (internship)
           </h3>
           <p>
             <li>
