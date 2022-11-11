@@ -8,7 +8,7 @@ import "../styles/Project.css";
 function Projects() {
   return (
     <div className="projects">
-      <h1 className="projectHeadText">Latest Side Projects</h1>
+      <h1 className="projectHeadText">Side Projects</h1>
 
       <div className="projectList">
         {ProjectList.map((project, index) => {
