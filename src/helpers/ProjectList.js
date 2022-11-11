@@ -14,7 +14,7 @@ export const ProjectList = [
     preview: "https://chic-pithivier-938966.netlify.app/",
   },
   {
-    name: "Anime Satelite Station - 아니메 컴셋",
+    name: "Anime Satelite Station (아니메 컴셋)",
     image: Picture2,
     skills: "React.js, JavaScript, REST API",
     url: "https://github.com/mireu-san/anime-satelite-station",
@@ -35,7 +35,7 @@ export const ProjectList = [
     preview: "https://wonderful-goldstine-6adfe3.netlify.app/",
   },
   {
-    name: "Mirue's Lab",
+    name: "Mirue's Laboratory",
     image: Picture5,
     skills: "React.js, JavaScript",
     url: "https://github.com/mireu-san/neo-city-2021",

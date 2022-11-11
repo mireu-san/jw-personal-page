@@ -17,7 +17,7 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2017"
+          date="2020 - present"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -53,7 +53,15 @@ function Experience() {
             Queensland University of Technology - Economics, Bachelor degree
           </h3>
           <p>
-            <li>Graduated in July 2017</li>{" "}
+            <li>Intermediate macroeconomics</li>
+            <li>Intermediate microeconomics</li>
+            <li>Game theory and applications</li>
+            <li>Contemporary application of economic theory (capstone unit)</li>
+            <li>Environmental economics and policy</li>
+            <li>International economics</li>
+            <li>Financial Accounting</li>
+            <li>Business Law and Ethics</li>
+            <li>Economics for the real world</li>
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

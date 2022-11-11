@@ -6,7 +6,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
-import PhotoList from "../helpers/PhotoList";
 
 import Exp1 from "../assets/image/exp1.png";
 import Exp2 from "../assets/image/exp2.jpg";
@@ -115,6 +114,10 @@ function Experience() {
           </h3>
           <p>
             <li>Served for 2 years</li>
+            <li>
+              당시 군 내 도서관에 비치된 파이선 입문 책을 바탕으로, 백엔드 분야
+              중 웹 데이터 크롤링 까지 진행.
+            </li>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

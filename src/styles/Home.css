@@ -13,15 +13,24 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-color: #4285F4;
   color: #f0f0f0;
 }
 
 .about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: 80px;
-  color: #e9d35b;
+  color: #FFD700;
   height: 50px;
+}
+
+.about h3 {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: 1.5rem;
+}
+
+.about p {
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .about .prompt {
@@ -45,6 +54,15 @@
 
 .skills h1 {
   color: #3e497a;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.skills h2 {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.skills span {
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .skills .list {
@@ -73,6 +91,11 @@
 
 p {
   margin-top: 0;
+}
+
+svg.MuiSvgIcon-root {
+  margin: 0.7rem;
+  margin-top: 0rem;
 }
 
 @media only screen and (max-width: 1100px) {

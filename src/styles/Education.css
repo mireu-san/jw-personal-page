@@ -1,3 +1,7 @@
+* {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
 img.smallImg {
     max-width: 300px;
     border-radius: 1rem;
