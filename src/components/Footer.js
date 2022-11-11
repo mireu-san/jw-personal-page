@@ -9,8 +9,12 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <LinkedInIcon />
-        <GithubIcon />
+        <a href="https://www.linkedin.com/in/jongwan-kim-89500a194/">
+          <LinkedInIcon />
+        </a>
+        <a href="https://github.com/mireu-san">
+          <GithubIcon />
+        </a>
       </div>
       <Navbar />
     </div>

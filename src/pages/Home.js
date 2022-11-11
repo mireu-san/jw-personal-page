@@ -1,31 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import PhonelinkRingIcon from "@material-ui/icons/PhonelinkRing";
+import FaceIcon from "@material-ui/icons/Face";
 
 import "../styles/Home.css";
 import MePhoto from "../assets/me-photo.jpg";
+// import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
+// import ResumePDF from "../assets/resume.pdf";
 
 function Home() {
+  // Archived - react-pdf (deprecated - due to scale error)
+  // const [numPage, setNumPages] = useState(null);
+  // const [pageNumber, setPageNumber] = useState(1);
+
+  // function onDocumentLoadSuccess({ numPages }) {
+  //   setNumPages(numPage);
+  //   setPageNumber(1);
+  // }
+
+  // function removeTextLayerOffset() {
+  //   const textLayers = document.querySelectorAll(
+  //     ".react-pdf__Page__textContent"
+  //   );
+  //   textLayers.forEach((layer) => {
+  //     const { style } = layer;
+  //     style.top = "0";
+  //     style.left = "0";
+  //     style.transform = "";
+  //   });
+  // }
+
   return (
     <div className="home">
       <div className="about">
         <img src={MePhoto} alt="profile" className="profileImg" />
         <h2>안녕하세요!</h2>
         <h3>
-          프론트엔드 웹개발에 초점을 두고 개발을 하고있는 김종완 이라고 합니다.
+          저는 독학으로 시작해서 현재 프론트엔드 웹개발을 하고 있는 김종완
+          이라고 합니다.
         </h3>
         <div className="prompt">
-          <p> A frontend developer with a hope to embrace the future. </p>
+          <p>
+            {" "}
+            A frontend developer who has the courage to face the fear & build
+            the future.{" "}
+          </p>
           <a href="https://www.linkedin.com/in/jongwan-kim-89500a194/">
             <LinkedInIcon />
           </a>
           <a href="https://github.com/mireu-san">
             <GithubIcon />
           </a>
-          <a href="mailto:starmireu@gmail.com">
-            <EmailIcon />
+          <a href="https://drive.google.com/file/d/1G_mgWtIV4l54nTPu47sT9IDY1JsAxXW_/view?usp=share_link">
+            <FaceIcon />
           </a>
           <a href="tel:+821082158540">
             <PhonelinkRingIcon />
@@ -56,6 +85,18 @@ function Home() {
           </li>
         </ol>
       </div>
+      {/* <div className="resume">
+        <h1>Resume</h1>
+        <div>
+          <Document
+            file={ResumePDF}
+            onLoadSuccess={onDocumentLoadSuccess}
+            onRemoveTextSuccess={removeTextLayerOffset}
+          >
+            <Page height="600" pageNumber={pageNumber} />
+          </Document>
+        </div>
+      </div> */}
     </div>
   );
 }

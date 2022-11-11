@@ -6,6 +6,11 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 
+import Edu1 from "../assets/image/edu1.jpg";
+import Edu2 from "../assets/image/qut.jpg";
+
+import "../styles/Education.css";
+
 function Experience() {
   return (
     <div className="experience">
@@ -16,6 +21,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
+          <img src={Edu1} alt="Edu1" className="smallImg" />
           <h3 className="vertical-timeline-element-title">
             Web development : Self-learning
           </h3>
@@ -42,6 +48,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
+          <img src={Edu2} alt="uni logo" className="smallImg2" />
           <h3 className="vertical-timeline-element-title">
             Queensland University of Technology - Economics, Bachelor degree
           </h3>

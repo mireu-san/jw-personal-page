@@ -26,3 +26,20 @@
     font-size: 60px;
     color: #3e497a;
   }
+
+
+
+  .p {
+  font-size: 12px;
+}
+
+.MuiSvgIcon-root {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .thumbNailSize {
+    max-width: 380px;
+  }
+}

@@ -27,6 +27,7 @@ function Navbar() {
         </button>
       </div>
       {/* desktop navbar */}
+
       <div className="links">
         <Link to="/"> Home </Link>
         <Link to="/experience"> Experience </Link>

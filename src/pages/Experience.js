@@ -6,6 +6,15 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import PhotoList from "../helpers/PhotoList";
+
+import Exp1 from "../assets/image/exp1.png";
+import Exp2 from "../assets/image/exp2.jpg";
+import Exp3 from "../assets/image/exp3.png";
+import Exp4 from "../assets/image/exp4.jpg";
+import Exp5 from "../assets/image/exp5.jpg";
+
+import "../styles/Experience.css";
 
 function Experience() {
   return (
@@ -17,19 +26,28 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<WorkIcon />}
         >
+          <img src={Exp1} alt="Exp1" className="thumbnail" />
           <h3 className="vertical-timeline-element-title">
             Chingu - Work Collaboration Remote Community
           </h3>
           <p>
-            <li>싱가폴 시간대에 거주중인 개발자들과 함께 단기적으로 진행.</li>
+            <li>싱가폴 시간대의 다국적 개발자들과 함께 단기적으로 진행.</li>
             <li>
-              코드 구성 및 사용 할 라이브러리에 대한 계획의 중요성에 대한 이해.
+              에자일 방법론 중, Kanban 을 위주로 과정을 진행해 나가는 걸 선호.
             </li>
-            <li>Kanban management 및 Discord를 통한 간략한 문서화.</li>
+            <li>Discord를 통한 소통 진행 및 정보 공유.</li>
             <li>
-              사전 계획 및 팀원간의 이해도 동기화를 통한 효율적인 작업 경험에
-              무게.
+              새로운 Stack 접목 시, (1)예시참조 (2)문서참조 (3)실험 (4) 적용
+              순으로 진행.
             </li>
+
+            <ol>
+              <strong>Main Stacks:</strong>
+            </ol>
+            <ol>
+              React.js, JavaScript, CSS, TypeScript, REST API 및, 그룹 구성에
+              따라 여러 방식의 기술 접근이 발생함.
+            </ol>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -38,8 +56,8 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<WorkIcon />}
         >
+          <img src={Exp2} alt="Exp2" className="thumbnail" />
           <h3 className="vertical-timeline-element-title">
-            {" "}
             Frontend Developer - Teampl100
           </h3>
           <p>
@@ -65,6 +83,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
+          <img src={Exp3} alt="Exp3" className="thumbnail" />
           <h3 className="vertical-timeline-element-title">
             Web development - 독학
           </h3>
@@ -90,6 +109,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<WorkIcon />}
         >
+          <img src={Exp4} alt="Exp4" className="thumbnail" />
           <h3 className="vertical-timeline-element-title">
             Accounting - ROK Aviation Forces
           </h3>
@@ -103,6 +123,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
+          <img src={Exp5} alt="Exp5" className="thumbnail" />
           <h3 className="vertical-timeline-element-title">
             Studied in overseas nation - Australia
           </h3>

@@ -11,16 +11,19 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <img src={project.image} alt="thumbnail" />
+      <img src={project.image} alt="thumbnail" className="thumbNailSize" />
       <p>
-        <b>Main Stacks:</b> {project.skills}
+        <b>Main Stacks:</b> <br />
+        {project.skills}
       </p>
-      <a href={project.url}>
-        <GitHubIcon />
-      </a>
-      <a href={project.preview}>
-        <VisibilityIcon />
-      </a>
+      <div className="outBound">
+        <a href={project.url}>
+          <GitHubIcon />
+        </a>
+        <a href={project.preview}>
+          <VisibilityIcon />
+        </a>
+      </div>
     </div>
   );
 }

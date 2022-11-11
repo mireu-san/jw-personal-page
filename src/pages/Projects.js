@@ -9,6 +9,7 @@ function Projects() {
   return (
     <div className="projects">
       <h1>Latest Personal Projects</h1>
+
       <div className="projectList">
         {ProjectList.map((project, index) => {
           return (
@@ -16,6 +17,7 @@ function Projects() {
           );
         })}
       </div>
+
       <p>
         전체 프로젝트를 열람하려면, 하단의 Github 아이콘을 참조해주시기
         바랍니다.
