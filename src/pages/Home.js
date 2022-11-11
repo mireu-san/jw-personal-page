@@ -62,26 +62,26 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1>Skills</h1>
+        <h1>Main Stacks</h1>
         <ol className="list">
           <li className="item">
             <h2>Front End</h2>
             <span>
-              React.js, HTML, CSS, Styled-Components, NPM, Yarn, MaterialUI,
-              ReactIcon, React Router, react-query
+              React.js, HTML, CSS, Styled-Components, react-pdf, NPM, Yarn,
+              MaterialUI, ReactIcon, React Router, react-query
             </span>
           </li>
           <li className="item">
-            <h2>Back End(minor)</h2>
+            <li className="item">
+              <h2>Languages</h2>
+              <span>JavaScript, TypeScript, Python</span>
+            </li>
+            <li className="item">
+              <h2>CI/CD</h2>
+              <span>Firebase, AWS, Atlas, Docker</span>
+            </li>
+            <h2>Back End (minor)</h2>
             <span>NodeJS, MongoDB, Django</span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>JavaScript, TypeScript, Python</span>
-          </li>
-          <li className="item">
-            <h2>CI/CD</h2>
-            <span>Firebase, AWS, Atlas, Docker</span>
           </li>
         </ol>
       </div>
