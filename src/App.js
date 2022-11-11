@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* #1 차이점? */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

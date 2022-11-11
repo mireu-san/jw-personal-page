@@ -14,6 +14,7 @@ function Navbar() {
   }, [location]);
 
   return (
+    // navbar as header, then mobile button; toggleButton
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
         {/* toggle button for mobile */}
@@ -25,10 +26,11 @@ function Navbar() {
           <ReorderIcon />
         </button>
       </div>
+      {/* desktop navbar */}
       <div className="links">
         <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experience </Link>
+        <Link to="/projects"> Projects </Link>
       </div>
     </div>
   );
