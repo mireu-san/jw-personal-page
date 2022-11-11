@@ -60,20 +60,25 @@ function Experience() {
             Frontend Developer - Teampl100
           </h3>
           <p>
-            <li>JavaScript, React.js, TypeScript</li>
-            <li>
-              React.js 와 JavaScript 와 같은 스크립트 파일들을 TypeScript 로
-              변환하는 작업.
-            </li>
             <li>
               React hooks (useState, useEffect) 를 활용한 ‘시간 지정에 따른,
               남은 시간 출력’ 기능 구현.
             </li>
             <li>
-              PM 과의 소통 및 문서화 작업을 진행함으로써, 진행중인 프로젝트의
-              작업 목표에서 벗어나지 않도록 예방.
+              React.js 와 JavaScript 와 같은 스크립트 파일들을 TypeScript 로
+              변환하는 작업.
+            </li>
+            <li>
+              PM 과의 소통 및 문서화 작업. 진행중인 프로젝트의 작업 목표에서
+              벗어나지 않도록 소통 유지.
             </li>
             <li>CI/CD pipeline 개념 숙지.</li>
+            <ol>
+              <strong>Main Stacks:</strong>
+              <ol>
+                JavaScript, React.js, TypeScript, Slack, Jira, Git, Github
+              </ol>
+            </ol>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

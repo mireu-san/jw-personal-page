@@ -2,7 +2,6 @@
   font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
-
 .projects {
     width: 100%;
     height: auto;
@@ -25,7 +24,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
-  
+
   /* MENU ITEM STYLING */
   
   .projectItem {
@@ -56,6 +55,10 @@
     font-size: 25px;
   }
   
+.projectHeadText {
+  font-size: 3rem;
+}
+
   @media only screen and (max-width: 1300px) {
     .projectList {
       grid-template-columns: 1fr 1fr;

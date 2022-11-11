@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
 import PhonelinkRingIcon from "@material-ui/icons/PhonelinkRing";
 import FaceIcon from "@material-ui/icons/Face";
 
