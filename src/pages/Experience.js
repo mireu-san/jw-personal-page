@@ -15,7 +15,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="04/2022 - present"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Chingu - Work Collaboration Remote Community
@@ -36,7 +36,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="07/2022 - 08/2022"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             {" "}
@@ -101,7 +101,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="07/2007 - 07/2017"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Studied in overseas nation - Australia

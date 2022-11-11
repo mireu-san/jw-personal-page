@@ -5,11 +5,13 @@ import EmailIcon from "@material-ui/icons/Email";
 import PhonelinkRingIcon from "@material-ui/icons/PhonelinkRing";
 
 import "../styles/Home.css";
+import MePhoto from "../assets/me-photo.jpg";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
+        <img src={MePhoto} alt="profile" className="profileImg" />
         <h2>안녕하세요!</h2>
         <h3>
           프론트엔드 웹개발에 초점을 두고 개발을 하고있는 김종완 이라고 합니다.
