@@ -75,10 +75,8 @@ function Experience() {
             <li>CI/CD pipeline 개념 숙지.</li>
             <ol>
               <strong>Main Stacks:</strong>
-              <ol>
-                JavaScript, React.js, TypeScript, Slack, Jira, Git, Github
-              </ol>
             </ol>
+            <ol>JavaScript, React.js, TypeScript, Slack, Jira, Git, Github</ol>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
