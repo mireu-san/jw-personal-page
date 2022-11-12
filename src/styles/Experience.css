@@ -7,6 +7,11 @@ img.thumbnail {
     border-radius: 1rem;
 }
 
+.vertical-timeline-element-title {
+    text-align: left;
+}
+
+
 @media only screen and (max-width: 600px) {
     img.thumbnail {
         max-width: 200px;
