@@ -70,6 +70,10 @@
     #close a {
       display: none;
     }
+
+    button {
+      margin-top: 20px;
+    }
   }
   
   @media only screen and (min-width: 600px) {

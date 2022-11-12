@@ -17,6 +17,10 @@ img.smallImg2 {
     text-align: left;
 }
 
+li, ol {
+    text-align: left;
+}
+
 @media only screen and (max-width: 600px) {
     img.smallImg {
         max-width: 200px;
