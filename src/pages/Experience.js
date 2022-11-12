@@ -90,18 +90,18 @@ function Experience() {
             Web development - 독학
           </h3>
           <p>
-            <li>July 2020 - present</li>
             <li>
-              Udemy, Stackoverflow, discord, 공식 문서, 자료 구조, leetcode,
-              CS50 강의 및 서적을 중심으로 개념 진행
+              온라인 및 서적을 활용. freecodecamp, udemy, stackoverflow, youtube
+              등으로 실습을 해 보는 과정에서, 공식 Document 들을 참고 해 보며,
+              기능 구현을 통한 각 스택 및 언어별 이해도 증진에 중점.
             </li>
             <li>
-              첫 시작은 Python 및 백엔드. 이 후, Front-end JavaScript 프로젝트
-              위주로 개발.
+              자료 구조와 OOP, 그리고 네트워크 지식을 기본으로 두고 알고리즘
+              이론 및 풀이 연습을 진행.
             </li>
             <li>
-              JavaScript 내 클래스, 프로토 타입, 배열 접목을 통한 리펙토링 및
-              반복되는 코드 구성의 효율성 개선에 관심.
+              Brute force 방식으로 for/while loop 문을 이용한 제한적인 leetcode
+              문제 해결 연습을 진행.
             </li>
           </p>
         </VerticalTimelineElement>
