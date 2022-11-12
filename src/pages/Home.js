@@ -37,8 +37,8 @@ function Home() {
         <img src={MePhoto} alt="profile" className="profileImg" />
         <h2>안녕하세요!</h2>
         <h3>
-          저는 독학으로 시작해서 현재 프론트엔드 웹개발을 하고 있는 '김종완'
-          입니다.
+          저는 JavaScript, React.js & TypeScript 를 위주로 프론트엔드 웹개발을
+          진행 해 오고 있는 '김종완' 입니다.
         </h3>
         <div className="prompt">
           <p>
