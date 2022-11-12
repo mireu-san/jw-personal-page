@@ -26,19 +26,18 @@ function Experience() {
             Web development : Self-learning
           </h3>
           <p>
-            <li>Python 으로 시작해서, JavaScript 로 진행중.</li>
             <li>
               온라인 및 서적을 활용. freecodecamp, udemy, stackoverflow, youtube
-              등, 각 스택별 제공하는 Document 및 Frontend roadmap을 기점으로
-              심도있는 이해도 증진에 중점.
+              등으로 실습을 해 보는 과정에서, 공식 Document 들을 참고 해 보며,
+              기능 구현을 통한 각 스택 및 언어별 이해도 증진에 중점.
             </li>
             <li>
-              자료 구조와 OOP를 중심, 그리고 CS50 강의를 토대로 CS지식의
-              이해도를 높이는 중.
+              자료 구조와 OOP, 그리고 네트워크 지식을 기본으로 두고 알고리즘
+              이론 및 풀이 연습을 진행.
             </li>
             <li>
-              매일 1문제. 알고리즘 문제를 반복해서 풀어보며 효율적 코드 구상에
-              대한 감각을 익히는 중.
+              Brute force 방식으로 for/while loop 문을 이용한 제한적인 leetcode
+              문제 해결 연습을 진행.
             </li>
           </p>
         </VerticalTimelineElement>
