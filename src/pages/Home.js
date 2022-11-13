@@ -51,7 +51,7 @@ function Home() {
           <a href="https://github.com/mireu-san">
             <GithubIcon />
           </a>
-          <a href="https://drive.google.com/file/d/1G_mgWtIV4l54nTPu47sT9IDY1JsAxXW_/view?usp=share_link">
+          <a href="https://drive.google.com/file/d/1tXfdtOzJ7TpbfSW11oDUPQXmkzXR31Ku/view?usp=share_link">
             <FaceIcon />
           </a>
           <a href="tel:+821082158540">
@@ -65,8 +65,8 @@ function Home() {
           <li className="item">
             <h2>Front End</h2>
             <span>
-              React.js, HTML, CSS, Styled-Components, react-pdf, NPM, Yarn,
-              MaterialUI, ReactIcon, React Router, react-query
+              React.js, HTML, CSS, Styled-Components, NPM, Yarn, MaterialUI,
+              ReactIcon, React-Router-dom, Next.js, react-query
             </span>
           </li>
           <li className="item">
