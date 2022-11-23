@@ -66,7 +66,8 @@ function Home() {
             <h2>Front End</h2>
             <span>
               React.js, HTML, CSS, Styled-Components, NPM, Yarn, MaterialUI,
-              ReactIcon, React-Router-dom, Next.js, react-query
+              ReactIcon, React-Router-dom, Next.js, react-query, GraphQL(GQL),
+              Apollo Client
             </span>
           </li>
           <li className="item">
