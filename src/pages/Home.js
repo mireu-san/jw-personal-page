@@ -34,6 +34,21 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
+        {/* background effect start */}
+
+        <div className="box">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        {/* background effect end */}
         <img src={MePhoto} alt="profile" className="profileImg" />
         <h2>안녕하세요!</h2>
         <h3>
